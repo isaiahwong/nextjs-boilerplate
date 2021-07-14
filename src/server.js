@@ -14,7 +14,7 @@ class HttpServer {
     nodeEnv,
     name,
     port,
-    router
+    router,
   }) {
     this.server = express();
     this.nodeEnv = nodeEnv || 'development';
